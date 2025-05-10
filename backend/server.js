@@ -9,9 +9,9 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-app.use("/workouts", workoutRoutes);
-app.use("/users", userRoutes);
-app.use("/nutritions", nutritionRoutes);
+app.use("/api/v1/workouts", workoutRoutes);
+app.use("/api/v1/users", userRoutes);
+app.use("/api/v1/nutrition_items", nutritionRoutes);
 connectDB();
 
 app.listen(PORT, (error) => {
