@@ -1,5 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
+
+// models 
 const workout = require("../models/workoutModel")
 
 
