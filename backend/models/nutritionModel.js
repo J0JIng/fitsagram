@@ -78,7 +78,6 @@ const nutritionSchema = new Schema(
     },
     isUserAdded: {
       type: Boolean,
-      required: true,
       default: false,
     },
   },
